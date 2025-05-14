@@ -828,3 +828,271 @@ top: 55px;
 .footer-social {
     align-items: flex-start; /* Align social icons and app badges to the start */
 }
+
+
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+
+  /* Navigation */
+  nav {
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: flex-start; /* Align start */
+    padding: 10px 10px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 20px;
+    flex: 1 1 100%; /* Take full width on new line if needed */
+    order: 1;
+  }
+
+  .nav-links {
+    flex-wrap: wrap; /* Wrap nav items onto next lines */
+    gap: 10px;
+    justify-content: flex-start;
+    flex: 1 1 100%;
+    order: 2;
+  }
+
+  .nav-links a,
+  .nav-links button {
+    font-size: 12px;
+    padding: 6px 8px;
+    white-space: normal; /* Allow text to wrap */
+    flex: 1 1 auto;
+  }
+
+  /* Header */
+  .header {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .left-content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-left: 0;
+  }
+
+  .tagline,
+  .description {
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-primary {
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  /* Right Image */
+  .right-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+
+  /* Services Section */
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .card {
+    width: calc(50% - 15px);
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* Top Destinations Section */
+  .top-destinations-section p,
+  .top-destinations-section h2 {
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+
+  .destinations-grid {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .destination-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Booking Section */
+  .book-trip-section {
+    flex-direction: column;
+    padding: 20px 10px;
+    max-width: 100%;
+  }
+
+  .left-side,
+  .right-side {
+    flex: 1 1 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  /* Ongoing Trip */
+  .ongoing-trip {
+    width: 100%;
+    margin-left: 0;
+    top: 15px;
+    left: 0;
+  }
+
+  /* Testimonials Section */
+  .testimonials-section {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .testimonials-header {
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+
+  .testimonial-card {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .testimonial-navigation {
+    margin-top: 10px;
+  }
+
+  .navigation-button {
+    top: 0;
+  }
+
+  /* Logos Section */
+  .logos-section {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .company-logo {
+    max-height: 40px;
+    width: 80px;
+  }
+
+  /* Subscribe Section */
+  .subscribe-section {
+    width: 100%;
+    left: 0;
+    border-top-left-radius: 0;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+
+  .subscribe-headline {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .email-input,
+  .subscribe-button {
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .subscribe-button {
+    margin-left: 0;
+  }
+
+  /* Footer */
+  .main-footer {
+    padding: 40px 10px;
+    box-sizing: border-box;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+  }
+
+  .footer-brand,
+  .company-info,
+  .contact-info,
+  .more-info,
+  .footer-social {
+    flex: none;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .footer-social {
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .app-badges {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+    padding-top: 20px;
+    margin-top: 30px;
+  }
+}
+
+
